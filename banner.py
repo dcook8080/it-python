@@ -11,13 +11,9 @@ def banner(title, author):
     print(f"{byline:^{banner_length}}")
     print("=" * banner_length)
     print("")
+if __name__ == "__main__" :
 
-
-
-banner("BANNER" , "Dylan Cook")
-
-name = input("What is your name? ")
-title = input("What is the title? ")
-print("")
-
-banner (title, name)
+    banner("BANNER" , "DYLAN COOK")
+    author = input(" What is your name?")
+    title = input("What is your quest?")
+    banner(title, author)
