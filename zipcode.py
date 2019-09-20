@@ -4,7 +4,7 @@ banner("Newaygo County Zip Code Sorter" , "Dylan Cook")
 
 print("Welcome to The Newaygo Zip Code Sorter")
 
-while True:
+while True :
     zipcode = int(input("Please enter a zip code. "))
 
     if zipcode == 49412 :
@@ -23,8 +23,8 @@ while True:
         print("Zip Code 49349 belongs to White Cloud")
     else:
         print("Zip Code is not in Newaygo County")
-    yesno = input("Would you like to enter another Zip Code? (Y/N)")
-    if yesno == "y"
+    if input("Would you like to enter another Zip Code? (Y/N) ") == "Y":
         continue
     else:
         break
+print("Thank You for using The Newaygo Zip Code Sorter")
