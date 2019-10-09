@@ -38,16 +38,3 @@ def add_entry(data):
     entry = input("Type your entry, <ENTER> to exit: \n")
     journal.add_entry(entry, data)
     #data.append(entry)
-
-
-
-
-
-
-
-
-
-
-
-
-main()
